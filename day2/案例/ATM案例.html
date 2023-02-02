@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=sc, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 初始金额
+        let money =100
+      while(true){
+        let re = +prompt(`请选择操作：
+        1：存钱
+        2：取钱
+        3：查看余额
+        4：退出
+        `)
+        if(re===4){
+            break
+        }
+        // 根据输入做操作
+        switch(re){
+            case 1:
+        // 存钱
+        let cun = +prompt('存多少')
+        money += cun
+        break;
+        case 2:
+        // 存钱
+        let qu = +prompt('取多少')
+        money = money-qu
+        break
+        case 3:
+        // 存钱
+        alert(money)
+        break
+        }
+      }  
+    </script>
+</body>
+</html>
