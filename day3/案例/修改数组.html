@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=['刘备','关羽','张飞','赵云']
+        for(let i=0;i<arr.length;i++){
+            // 拼接字符串
+            arr[i]=arr[i]+'牛逼'
+        }
+        // 修改
+        arr[3]='马超'
+        document.write(arr+'<br>')
+        // 增加数组
+        arr.push('黄忠','鲁肃')   //最后增加
+        arr.unshift('周瑜')  //最前面增加
+        document.write(arr+'<br>')
+
+
+ 
+    </script>
+</body>
+</html>
